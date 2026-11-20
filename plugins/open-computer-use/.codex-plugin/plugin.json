@@ -1,0 +1,45 @@
+{
+  "name": "open-computer-use",
+  "version": "1.1.5",
+  "description": "Open-source cross-platform Computer Use with a persistent JavaScript REPL.",
+  "author": {
+    "name": "Leo",
+    "url": "https://github.com/iFurySt"
+  },
+  "homepage": "https://github.com/iFurySt/open-computer-use",
+  "repository": "https://github.com/iFurySt/open-computer-use",
+  "license": "MIT",
+  "keywords": [
+    "computer-use",
+    "macos",
+    "automation",
+    "mcp",
+    "codex"
+  ],
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Open Computer Use",
+    "shortDescription": "Control desktop apps from Codex with the open local server",
+    "longDescription": "Open Computer Use packages this repository's open-source desktop automation server as a Codex plugin. The model-facing surface is a persistent Node.js REPL with js and js_reset, while the adapter composes the native accessibility and input actions through an asynchronous cua API on macOS, Linux, and Windows.",
+    "developerName": "Leo",
+    "category": "Productivity",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/iFurySt/open-computer-use",
+    "privacyPolicyURL": "https://github.com/iFurySt/open-computer-use/blob/main/SECURITY.md",
+    "termsOfServiceURL": "https://github.com/iFurySt/open-computer-use/blob/main/LICENSE",
+    "defaultPrompt": [
+      "Inspect the current UI state of this desktop app without stealing focus when possible",
+      "Open a new local document with keyboard shortcuts first, then type content without moving my real pointer unless required",
+      "Drive the fixture app with JavaScript and verify a multi-step flow in one call"
+    ],
+    "brandColor": "#0E7490",
+    "composerIcon": "./assets/open-computer-use-small.svg",
+    "logo": "./assets/open-computer-use.svg",
+    "screenshots": []
+  },
+  "bundledContentVariant": "node-repl"
+}
